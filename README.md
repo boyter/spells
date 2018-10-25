@@ -1,12 +1,12 @@
 Simple to script to generate "spell" names based on the names used in Harry Potter.
 
-Can generate millions of unique spell names
+Can generate millions of unique spell names. Names should in theory all be pronouncable.
 
-EG loop to create 5 million spell names
+E.G. loop to create 10,000,000 spell names
 
 ```
 $ python generate.py | sort | uniq | wc -l
-2736827
+5200827
 ```
 
 Sample names,
