@@ -23,5 +23,5 @@ def random_spell():
 
 
 if __name__ == "__main__":
-    for x in range(10000000):
+    for x in range(100):
         print random_spell()
